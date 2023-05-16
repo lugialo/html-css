@@ -1,0 +1,73 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    margin: 0;
+    background-color: cyan;
+}
+div#top{
+    padding: 10px;
+    background-image: linear-gradient(rgb(45, 159, 83),rgb(22, 57, 22));
+    
+}
+
+div#top > h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+div#top > h2 {
+    text-align: center;
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+div#top div.navbar a{
+    padding-right: 8px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+div#top div.navbar a:hover{
+    color: yellow;
+}
+
+mid div.text-column{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+mid div.text-column h2{
+    font-family: idroid;
+    color: darkgreen;
+}
+
+mark{
+    background-color: aliceblue;
+    color: green;
+}
+
+mid div.text-column h3{
+    font-family: idroid;
+    background-image: linear-gradient(to right, rgb(103, 193, 103), white);
+    padding: 3px;
+}
+
+mid div.text-column mark.special::after{
+    content: ' 🔗 ';
+}
+
