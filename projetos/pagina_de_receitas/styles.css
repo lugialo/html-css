@@ -31,7 +31,7 @@ div#content h1 {
 
 div#content h2 {
   color: #ff6b28;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 50px;
@@ -39,20 +39,33 @@ div#content h2 {
 
 #ingredients {
   border-radius: 20px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
   transition: box-shadow 0.5s ease-in-out;
+  cursor: url("./images/cursor_ingredientes.png"), auto;
 }
 
 #prepare-mode {
   border-radius: 20px;
+  margin-bottom: 50px;
+  padding-top: 1px;
+  padding-bottom: 30px;
   transition: box-shadow 0.5s ease-in-out;
+  cursor: url("./images/cursor_preparo.png"), auto;
 }
 
 #additional-instructions {
   border-radius: 20px;
+  padding-top: 1px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
   transition: box-shadow 0.5s ease-in-out;
+  cursor: url("./images/cursor_intrucoes.png"), auto;
 }
 
 div#content .un_ordered-list li {
+  margin-right: 100px;
   margin-bottom: 20px;
   margin-left: 100px;
   font-weight: bold;
@@ -75,6 +88,7 @@ button {
 
 p {
   margin-left: 100px;
+  margin-right: 100px;
   font-size: 16px;
   line-height: 25px;
   font-weight: bold;
